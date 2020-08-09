@@ -11,7 +11,7 @@ import utils
 import page
 import threading
 
-run_command("sudo resize2fs /dev/mmcblk0p2")
+# run_command("sudo resize2fs /dev/mmcblk0p2")
 #Menu_page_protect 
 # Menu_page_protect_flag = 0 
 
