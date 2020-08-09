@@ -7,8 +7,8 @@ import logging
 import time
 from PIL import Image,ImageDraw,ImageFont 
 import traceback
-from utils import *
-from page import *
+import utils
+import page
 import threading
 
 run_command("sudo resize2fs /dev/mmcblk0p2")

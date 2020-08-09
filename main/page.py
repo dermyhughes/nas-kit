@@ -5,7 +5,7 @@ import logging
 import time 
 from PIL import Image,ImageDraw,ImageFont 
 import traceback
-from utils import *
+import utils
 
 
 
