@@ -49,19 +49,21 @@ def install():
 
 ### install epd_code
     # do(msg="install nas-kit",
-    #     cmd='run_command("cd ~")')
+    #     cmd='run_command("cd ~/lib/epd_lib")')
+    # do(msg="install epd",
+    #     cmd='run_command("sudo python3 ")')
 
 ### Setup OMV env and install OMV
-    # do(msg="Enter-file",
-    #     cmd='run_command("cd ~/nas-kit/file")') 
-    # do(msg="Nas-Source",
-    #     cmd='run_command("sudo chmod 777 source-code && sudo ./source-code")')
-    # do(msg="Nas-deb-setup",
-    #     cmd='run_command("sudo chmod 777 nas-build && sudo ./nas-build")')
-    # do(msg="install openmediavault",
-    #     cmd='run_command("sudo apt-get install openmediavault-keyring openmediavault -y")') 
-    # do(msg="Populate the database",
-    #     cmd='run_command("sudo omv-confdbadm populate")')
+    do(msg="Enter-file",
+        cmd='run_command("cd ~/nas-kit/file")') 
+    do(msg="Nas-Source",
+        cmd='run_command("sudo chmod 777 source-code && sudo ./source-code")')
+    do(msg="Nas-deb-setup",
+        cmd='run_command("sudo chmod 777 nas-build && sudo ./nas-build")')
+    do(msg="install openmediavault",
+        cmd='run_command("sudo apt-get install openmediavault-keyring openmediavault -y")') 
+    do(msg="Populate the database",
+        cmd='run_command("sudo omv-confdbadm populate")')
 
 
         
